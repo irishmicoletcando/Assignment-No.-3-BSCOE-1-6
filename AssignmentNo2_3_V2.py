@@ -28,3 +28,5 @@ apple = ask_price_apple()
 maximum_apples = max_number_apples()
 change = show_change()
 display()
+
+# Program completed
