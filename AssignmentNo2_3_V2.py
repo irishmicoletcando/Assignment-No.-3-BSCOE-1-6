@@ -15,7 +15,11 @@ def max_number_apples():
     max_number_apples = int(money // apple)
     return max_number_apples
 
+def show_change():
+    _change = money % apple
+    return _change
 
 money = ask_money()
 apple = ask_price_apple()
 maximum_apples = max_number_apples()
+change = show_change()
