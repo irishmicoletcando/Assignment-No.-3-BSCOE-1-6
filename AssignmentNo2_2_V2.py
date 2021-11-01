@@ -25,3 +25,5 @@ apple = ask_apples_number_to_compute_price()
 orange = ask_oranges_number_to_compute_price()
 total = show_total(apple, orange)
 display(total)
+
+# Program Completed
