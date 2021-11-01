@@ -8,5 +8,11 @@ def ask_apples_number_to_compute_price():
     apple_price = 20 * apple_number
     return apple_price
 
+def ask_oranges_number_to_compute_price():
+    orange_number = int(input("How many oranges do you want to buy? "))
+    orange_price = 25 * orange_number
+    return orange_price
+
 
 apple = ask_apples_number_to_compute_price()
+orange = ask_oranges_number_to_compute_price()
