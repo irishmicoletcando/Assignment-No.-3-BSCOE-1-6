@@ -11,6 +11,11 @@ def ask_price_apple():
     _apple = float(input("What is the price of an apple per piece? "))
     return _apple
 
+def max_number_apples_and_change():
+    max_number_apples = int(money // apple)
+    return max_number_apples
+
 
 money = ask_money()
 apple = ask_price_apple()
+maximum_apples = max_number_apples_and_change()
