@@ -19,7 +19,12 @@ def show_change():
     _change = money % apple
     return _change
 
+def display():
+    print(f"You can buy {maximum_apples} apples and your change is {change: .2f} pesos.")
+
+
 money = ask_money()
 apple = ask_price_apple()
 maximum_apples = max_number_apples()
 change = show_change()
+display()
