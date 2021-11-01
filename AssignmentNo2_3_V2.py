@@ -7,4 +7,10 @@ def ask_money():
     _money = float(input("How much money do you have? "))
     return _money
 
+def ask_price_apple():
+    _apple = float(input("What is the price of an apple per piece? "))
+    return _apple
+
+
 money = ask_money()
+apple = ask_price_apple()
