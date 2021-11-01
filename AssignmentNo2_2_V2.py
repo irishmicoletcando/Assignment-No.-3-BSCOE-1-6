@@ -13,6 +13,11 @@ def ask_oranges_number_to_compute_price():
     orange_price = 25 * orange_number
     return orange_price
 
+def show_total(apple, orange):
+    apple_and_orange_total = apple + orange
+    return apple_and_orange_total
+
 
 apple = ask_apples_number_to_compute_price()
 orange = ask_oranges_number_to_compute_price()
+total = show_total(apple, orange)
